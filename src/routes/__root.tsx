@@ -96,13 +96,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#1FA7E0" },
-      { property: "og:title", content: "Kuber Enterprise | Civil Construction & Infrastructure Contractor" },
-      { name: "twitter:title", content: "Kuber Enterprise | Civil Construction & Infrastructure Contractor" },
-      { name: "description", content: "Kuber Construction Hub showcases Kuber Enterprise's civil construction and infrastructure projects." },
-      { property: "og:description", content: "Kuber Construction Hub showcases Kuber Enterprise's civil construction and infrastructure projects." },
-      { name: "twitter:description", content: "Kuber Construction Hub showcases Kuber Enterprise's civil construction and infrastructure projects." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5b0bab1f-6896-4506-92e1-69679fe38769/id-preview-36052d79--77ace224-e5b3-4459-ad13-a90fce87cf4c.lovable.app-1780388017426.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5b0bab1f-6896-4506-92e1-69679fe38769/id-preview-36052d79--77ace224-e5b3-4459-ad13-a90fce87cf4c.lovable.app-1780388017426.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
