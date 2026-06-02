@@ -1,9 +1,17 @@
-import logoAsset from "@/assets/kuber-logo.png.asset.json";
+import kuberLogoImg from "@/assets/k1.png";
 import hero from "@/assets/hero-construction.jpg";
 import watersump from "@/assets/proj-watersump.jpg";
 import rcc from "@/assets/proj-rcc.jpg";
 import boundary from "@/assets/proj-boundary.jpg";
 import pipeline from "@/assets/proj-pipeline.jpg";
+import building from "@/assets/proj-building.jpg";
+import shuttering from "@/assets/proj-shuttering.jpg";
+import gutter from "@/assets/proj-gutter.jpg";
+import rubble from "@/assets/proj-rubble.jpg";
+import pvc from "@/assets/proj-pvc.jpg";
+import color from "@/assets/proj-color.jpg";
+
+export const kuberLogo = kuberLogoImg;
 import building from "@/assets/proj-building.jpg";
 import shuttering from "@/assets/proj-shuttering.jpg";
 import gutter from "@/assets/proj-gutter.jpg";
@@ -19,7 +27,7 @@ export const company = {
   email: "info@kuber-enterprise.in",
   whatsappMessage:
     "Hello Kuber Enterprise, I would like to discuss a construction project.",
-  logo: logoAsset.url,
+  logo: kuberLogo,
   heroImage: hero,
   description:
     "Kuber Enterprise specializes in civil construction, underground water infrastructure, RCC works, industrial construction, pipeline projects, shuttering, boundary walls, rubble soling, and allied civil engineering projects.",

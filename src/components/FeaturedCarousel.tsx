@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { projects } from "@/data/site";
 import { ArrowRight } from "lucide-react";
 
@@ -7,13 +7,11 @@ const featured = projects.slice(0, 5);
 
 export function FeaturedCarousel() {
   const [i, setI] = useState(0);
-  useEffect(() => {
-    const t = setInterval(() => setI((p) => (p + 1) % featured.length), 5000);
-    return () => clearInterval(t);
-  }, []);
-
+  
   return (
-    <div className="relative overflow-hidden rounded-3xl shadow-elegant bg-brand-dark">
+    <div 
+      className="relative overflow-hidden rounded-3xl shadow-elegant bg-brand-dark"
+    >
       <div
         className="flex transition-transform duration-700 ease-out"
         style={{ transform: `translateX(-${i * 100}%)` }}

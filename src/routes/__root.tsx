@@ -15,7 +15,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import logoAsset from "@/assets/kuber-logo.png.asset.json";
+import { kuberLogo } from "@/data/site";
 
 function NotFoundComponent() {
   return (
@@ -106,7 +106,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", type: "image/png", href: logoAsset.url },
+      { rel: "icon", type: "image/png", href: kuberLogo },
     ],
     scripts: [
       {
@@ -116,7 +116,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "Organization",
           name: "Kuber Enterprise",
           url: "https://kuber-enterprise.in",
-          logo: logoAsset.url,
+          logo: kuberLogo,
           telephone: "+91 96871 23941",
           email: "info@kuber-enterprise.in",
           address: { "@type": "PostalAddress", addressRegion: "Gujarat", addressCountry: "IN" },

@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, Outlet, useChildMatches } from "@tanstack/react-router";
 import { useState } from "react";
 import { Images } from "lucide-react";
 import { projects, projectCategories, filterByCategory } from "@/data/site";
@@ -17,8 +17,15 @@ export const Route = createFileRoute("/projects")({
 });
 
 function ProjectsPage() {
+  const childMatches = useChildMatches();
+  const hasChildRoute = childMatches.length > 0;
   const [cat, setCat] = useState<string>("All");
   const list = filterByCategory(cat);
+
+  // If a child route is active (detail page), render it
+  if (hasChildRoute) {
+    return <Outlet />;
+  }
 
   return (
     <>

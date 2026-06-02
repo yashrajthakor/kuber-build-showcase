@@ -82,7 +82,7 @@ function HomePage() {
           </div>
 
           {/* Stats */}
-          <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+          {/* <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {stats.map((s) => (
               <div
                 key={s.label}
@@ -96,7 +96,7 @@ function HomePage() {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
