@@ -101,7 +101,7 @@ function ProjectDetail() {
       <section className="container-narrow pb-12">
         <h2 className="text-2xl font-bold mb-6">Project Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-          {project.images.map((src, i) => (
+          {project.images.map((src: string, i: number) => (
             <button
               key={i}
               onClick={() => setLb(i)}
