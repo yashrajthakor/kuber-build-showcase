@@ -1,6 +1,8 @@
 import kuberLogoImg from "@/assets/k1.png";
 import hero from "@/assets/hero-construction.jpg";
 import watersump from "@/assets/proj-watersump.jpg";
+import watersump2 from "@/assets/proj-watersump2.jpg";
+import watersump3 from "@/assets/proj-watersump3.jpg";
 import rcc from "@/assets/proj-rcc.jpg";
 import boundary from "@/assets/proj-boundary.jpg";
 import pipeline from "@/assets/proj-pipeline.jpg";
@@ -73,7 +75,7 @@ export const projects: Project[] = [
     title: "50.00 LL Underground Water Sump",
     client: "GWSSB", category: "Water Infrastructure", status: "Completed",
     description: "Large-capacity 50 lakh-litre underground sump construction for GWSSB with complete RCC works, shuttering, finishing and commissioning.",
-    cover: shuttering, images: [shuttering, watersump, rcc, color],
+    cover: watersump2, images: [shuttering, watersump2, rcc, color],
   },
   {
     id: 3, slug: "kuber-texo-boundary-wall",
@@ -123,7 +125,7 @@ export const projects: Project[] = [
     title: "19 LL Underground Water Sump",
     client: "GWSSB", category: "Water Infrastructure", status: "Completed",
     description: "19 lakh-litre underground RCC water sump constructed for GWSSB including excavation, rebar, RCC and finishing.",
-    cover: watersump, images: [watersump, shuttering, rcc, color],
+    cover: watersump3, images: [watersump3, shuttering, rcc, color],
   },
   {
     id: 10, slug: "kabir-texo-rubble-soling",
