@@ -12,12 +12,6 @@ import pvc from "@/assets/proj-pvc.jpg";
 import color from "@/assets/proj-color.jpg";
 
 export const kuberLogo = kuberLogoImg;
-import building from "@/assets/proj-building.jpg";
-import shuttering from "@/assets/proj-shuttering.jpg";
-import gutter from "@/assets/proj-gutter.jpg";
-import rubble from "@/assets/proj-rubble.jpg";
-import pvc from "@/assets/proj-pvc.jpg";
-import color from "@/assets/proj-color.jpg";
 
 export const company = {
   name: "Kuber Enterprise",

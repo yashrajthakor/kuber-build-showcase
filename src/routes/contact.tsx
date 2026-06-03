@@ -95,7 +95,7 @@ function ContactPage() {
           </div>
         </div>
 
-        <form
+        {/* <form
           onSubmit={onSubmit}
           className="lg:col-span-2 rounded-3xl bg-card border border-border p-6 md:p-8 shadow-elegant"
         >
@@ -137,7 +137,7 @@ function ContactPage() {
             <Send className="size-4" />
             Send Message
           </button>
-        </form>
+        </form> */}
       </section>
     </>
   );

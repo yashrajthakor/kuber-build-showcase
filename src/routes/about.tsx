@@ -38,11 +38,11 @@ function AboutPage() {
         </p>
       </section>
 
-      <section className="container-narrow">
+      {/* <section className="container-narrow">
         <div className="rounded-3xl overflow-hidden shadow-elegant aspect-[21/9]">
           <img src={hero} alt="Kuber Enterprise team on site" className="size-full object-cover" loading="lazy" />
         </div>
-      </section>
+      </section> */}
 
       <section className="container-narrow py-20 grid md:grid-cols-2 gap-6">
         <div className="rounded-3xl bg-card border border-border p-8">
@@ -68,7 +68,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-muted/40 py-16">
+      {/* <section className="bg-muted/40 py-16">
         <div className="container-narrow grid grid-cols-2 md:grid-cols-4 gap-4">
           {stats.map((s) => (
             <div key={s.label} className="rounded-2xl bg-card border border-border p-5 text-center">
@@ -81,7 +81,7 @@ function AboutPage() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <section className="container-narrow py-20">
         <h2 className="text-3xl md:text-4xl font-bold">What we stand for</h2>

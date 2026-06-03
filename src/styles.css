@@ -127,6 +127,27 @@
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
   }
+  /* Improve legibility: larger base font-size and slightly stronger weight.
+     Use a modest responsive increase on small screens where text appeared thin. */
+  html {
+    font-size: 16px; /* base */
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-size: 1rem; /* 16px */
+    line-height: 1.6;
+    font-weight: 500; /* stronger than 400 for better legibility */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Mobile: increase base size slightly and keep weight for readability */
+  @media (max-width: 640px) {
+    html { font-size: 18px; }
+    body { font-size: 1rem; line-height: 1.6; }
+    h1, h2, h3, h4, h5 { letter-spacing: -0.01em; }
+  }
   h1, h2, h3, h4, h5 {
     font-family: var(--font-display);
     letter-spacing: -0.02em;
